@@ -85,6 +85,7 @@ They do not contain:
 
 ## Connect
 
-- LinkedIn: `[ADD_LINK](https://www.linkedin.com/in/felipechavarro/)`
-- ORCID: `ADD_LINK`
-- Website: `[ADD_LINK](https://www.felipechavarropolania.com/)`
+- [LinkedIn](https://www.linkedin.com/in/felipechavarro/)
+- [GitHub](https://github.com/felipechavarropolania)
+- [Website](https://www.felipechavarropolania.com/)
+- [ORCID](https://orcid.org/0009-0004-4963-3914)
