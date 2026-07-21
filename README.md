@@ -63,7 +63,6 @@ Internal concept:
 
 > **State-bound validity:** an action must be both executable and justified by current evidence and rules.
 
-> **State-bound validity**
 
 ## What you will find here
 
