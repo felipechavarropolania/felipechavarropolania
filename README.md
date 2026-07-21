@@ -85,6 +85,6 @@ They do not contain:
 
 ## Connect
 
-- LinkedIn: `ADD_LINK`
+- LinkedIn: `[ADD_LINK](https://www.linkedin.com/in/felipechavarro/)`
 - ORCID: `ADD_LINK`
-- Website: `ADD_LINK`
+- Website: `[ADD_LINK](https://www.felipechavarropolania.com/)`
