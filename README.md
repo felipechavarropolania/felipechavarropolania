@@ -50,7 +50,6 @@ A case study in staged promotion and bounded cost allocation for micro-pretraini
 
 [Read on arXiv](https://arxiv.org/abs/2606.11387)
 
-## Research in progress
 
 ## Research in progress
 
