@@ -1,171 +1,92 @@
-# Hi, I’m Felipe Chavarro Polania
+# Felipe Chavarro Polania
 
-**AI product builder and researcher focused on governed agents, evidence-bound evaluation, deterministic controllers, and reproducible experimentation.**
+**I build governed AI systems: agents that can propose useful work while evidence, explicit rules, human approval, and deterministic controls retain final authority.**
 
-[LinkedIn](https://www.linkedin.com/in/felipechavarro/) ·
-[Website](https://www.felipechavarropolania.com/) ·
-[ORCID](https://orcid.org/0009-0004-4963-3914) ·
-[GitHub](https://github.com/felipechavarropolania)
+[LinkedIn](https://www.linkedin.com/in/felipechavarro/) | [Website](https://www.felipechavarropolania.com/) | [ORCID](https://orcid.org/0009-0004-4963-3914) | [Publications](#publications)
 
-> **Agents propose. Humans approve. Deterministic controllers decide. AI explains.**
+> Agents propose. Humans approve. Deterministic controllers decide. AI explains.
 
----
+## Start here
 
-## About my work
+This repository is a compact research hub for controlled AI-agent evaluation and reproducible experimentation. The fastest way to see the core idea is the dependency-free state-bound authorization example:
 
-I work at the intersection of AI product management, agentic systems, experimental research, security, and enterprise service automation.
+```bash
+python examples/state-bound-authorization/demo.py
+```
 
-My work explores one practical question:
+Expected result:
 
-> **How can organizations use AI to accelerate work without giving free-form models uncontrolled final authority?**
+```text
+Proposal:              APPROVE_CHANGE
+Structural checks:     PASS
+Evidence/rule support: FAIL
+Authorization:         WITHHELD
+```
 
-I am particularly interested in systems where AI can assist with discovery, classification, drafting, recommendation, and explanation, while evidence, explicit rules, human approval, and deterministic controls remain responsible for consequential decisions.
+The proposal passes structural checks and names an allowed action, but the current policy state requires rejection. Parseable output is therefore not enough for execution authority.
 
----
+[Run the example](examples/state-bound-authorization/README.md) | [Read the research program](research/README.md)
 
-## Current focus
+## Research program
 
-### Governed agentic systems
+![Research roadmap from experimental screening to state-bound authorization](docs/research-roadmap.svg)
 
-Designing patterns for:
+| Stage | Research question | Contribution | Status |
+|---|---|---|---|
+| Paper 05 | Which training factors matter under bounded compute? | Designed screening and replicated confirmation | [Published](https://arxiv.org/abs/2606.05186) |
+| Paper 06 | Which candidates deserve larger compute budgets? | Auditable staged promotion with frozen gates | [Published](https://arxiv.org/abs/2606.11387) |
+| Paper 07 | Did the agent return an executable final action? | Final-action binding and strict format reliability | Submission manuscript |
+| Paper 08 | Is that executable action supported by evidence and rules? | State-bound validity and deterministic authorization | Research in progress |
 
-- approved workspaces;
-- versioned agents and Skills;
-- controlled model routing;
-- typed and scoped tools;
-- human approval gates;
-- auditable run artifacts;
-- safe write-back and export decisions.
+The sequence moves from experimental governance to action governance:
 
-The objective is to make agent-assisted work reusable and scalable without turning prompts, credentials, provider access, or source folders into uncontrolled automation.
+```text
+discover useful factors -> promote experiments carefully -> bind the final action -> authorize only supported actions
+```
 
-### Evidence-bound agent evaluation
-
-Studying whether an agent’s final action is not only syntactically valid, but also supported by:
-
-- the current evidence;
-- the task state;
-- the applicable policy;
-- the declared decision rule.
-
-A parseable action is not necessarily a justified action.
-
-### Deterministic controllers
-
-Developing patterns in which approved specifications and real evidence are evaluated by deterministic components that produce:
-
-- canonical action identifiers;
-- reproducible decisions;
-- explicit missing-evidence states;
-- traceable result records;
-- controlled customer-facing outputs.
-
-### AI product operating systems
-
-Creating reusable product artifacts for moving from an AI idea to a governed product capability:
-
-- product briefs;
-- PRDs;
-- experiment cards;
-- decision records;
-- evaluation harnesses;
-- governance policies;
-- release gates;
-- evidence contracts;
-- roadmaps and adoption plans.
-
----
-
-## Research questions
-
-My current research program follows a simple progression:
-
-### 1. Is the final action executable?
-
-A model may understand a task and explain the correct choice while still failing to return the exact action required by a machine-readable contract.
-
-### 2. Is the executable action justified?
-
-Even a correctly formatted action may be unsupported by the current evidence or inconsistent with the declared decision rule.
-
-### 3. Who should hold final-action authority?
-
-I study how authority should be allocated among:
-
-- the language model;
-- the agent harness;
-- deterministic controllers;
-- human reviewers;
-- organizational policy.
-
----
-
-## Research in progress
-
-### A Valid Action Is Not Enough: Evaluating LLM Agents Against Evidence and Decision Rules
-
-Structured output can make an agent action parseable without making it justified.
-
-This research evaluates whether syntactically valid final actions are supported by the current evidence and consistent with the task’s declared decision rule.
-
-The internal concept is:
-
-> **State-bound validity:** a final action must be both executable and justified by the current evidence, state, and rules.
-
-The study uses controlled task families, explicit decision rules, human evidence labels, strict output validation, deterministic references, and reproducible evaluation artifacts.
-
----
-
-## Public research
+## Publications
 
 ### Staged Factorial Screening for Budget-Constrained Micro-Pretraining
 
-A controlled study of staged experimental screening for identifying influential model-configuration factors under strict compute budgets.
+A bounded methods study using 613 experiments to identify high-penalty training directions, confirm promising anchors, and refine inside a reduced search space. The result supports a bridge-centered recommendation through 24 hours on two hosts; it does not claim general hyperparameter-optimization superiority.
 
-- [Read on arXiv](https://arxiv.org/abs/2606.05186)
-- [DOI](https://doi.org/10.48550/arXiv.2606.05186)
+[arXiv:2606.05186](https://arxiv.org/abs/2606.05186) | [DOI](https://doi.org/10.48550/arXiv.2606.05186)
 
 ### Small Experiments, Cheaper Decisions: A Case Study in Staged Promotion for Micro-Pretraining
 
-A bounded case study of staged promotion, replicated evaluation, frozen decision gates, and compute-cost allocation across short and longer training budgets.
+A case study of short screens, replicated promotion gates, and bounded compute allocation. The study records 169.2 training GPU-hours and treats unrun continuations as accounting counterfactuals rather than proof that skipped candidates could not win.
 
-- [Read on arXiv](https://arxiv.org/abs/2606.11387)
-- [DOI](https://doi.org/10.48550/arXiv.2606.11387)
+[arXiv:2606.11387](https://arxiv.org/abs/2606.11387) | [DOI](https://doi.org/10.48550/arXiv.2606.11387)
 
----
+## Current research
 
-## What I am building
+### Format-Bound Harnesses Repair Final-Action Failures in Controlled LLM Agent Evaluation
 
-### Evidence-First AI Product OS
+Paper 07 separates executable-action validity from reasoning quality, regret, transport reliability, and deterministic controller behavior. A public arXiv link will be added when an identifier is available.
 
-A public product-and-research lab for:
+### A Valid Action Is Not Enough: Evaluating LLM Agents Against Evidence and Decision Rules
 
-- governed agent patterns;
-- evidence-bound action evaluation;
-- deterministic-controller examples;
-- reusable AI product artifacts;
-- reproducible experiments;
-- public governance templates.
+Paper 08 studies **state-bound validity**: whether a syntactically executable action is supported by the current task state, available evidence, and declared decision rule. The public example in this repository demonstrates the mechanism with synthetic, closed-world data; it is not a production safety claim.
 
-### State-Bound Agent Evaluations
+## What I work on
 
-Controlled examples that distinguish among:
+- Governed agent workbenches with scoped tools, approval gates, and auditable artifacts.
+- Evidence-bound evaluation that separates structure, support, and authorization.
+- Deterministic controllers that translate declared contracts into reproducible decisions.
+- AI product operating systems that connect product briefs, experiments, evidence, and release gates.
+- Reproducible research with frozen hypotheses, explicit non-claims, and curated public artifacts.
 
-1. an invalid action;
-2. a valid but unsupported action;
-3. a valid and evidence-supported action.
+## Public-work boundary
 
-### Deterministic Controller Patterns
+Everything in this repository is synthetic, public, or generalized. It contains no customer data, employer-confidential material, credentials, proprietary rule catalogs, private model logs, or unpublished review records.
 
-Portable examples that connect:
+## Repository map
 
-```text
-approved specification
-        ↓
-collected evidence
-        ↓
-deterministic evaluation
-        ↓
-canonical result
-        ↓
-auditable deliverable
+- [`research/`](research/README.md): publication status, contribution boundaries, and the cross-paper program.
+- [`examples/state-bound-authorization/`](examples/state-bound-authorization/README.md): runnable deterministic authorization example.
+- [`docs/research-roadmap.svg`](docs/research-roadmap.svg): public visual summary of the research sequence.
+- [`CITATION.cff`](CITATION.cff): citation metadata for this public research hub.
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/felipechavarro/) | [Website](https://www.felipechavarropolania.com/) | [ORCID](https://orcid.org/0009-0004-4963-3914)

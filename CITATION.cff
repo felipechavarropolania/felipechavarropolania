@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository, cite the specific paper associated with the
+  method or artifact. This file provides metadata for the research hub.
+title: Governed AI Systems Research Hub
+type: software
+authors:
+  - family-names: Chavarro Polania
+    given-names: Felipe
+    orcid: https://orcid.org/0009-0004-4963-3914
+version: 1.0.0
+date-released: 2026-07-21
+repository-code: https://github.com/felipechavarropolania/felipechavarropolania
+url: https://www.felipechavarropolania.com/
+abstract: >-
+  Public research notes and runnable synthetic examples for governed AI
+  systems, reproducible experimentation, final-action binding, and
+  state-bound authorization.
+keywords:
+  - AI agents
+  - agent governance
+  - deterministic controllers
+  - LLM evaluation
+  - reproducible research
+  - trustworthy AI

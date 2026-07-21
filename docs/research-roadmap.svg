@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
+  <title id="title">Governed AI systems research roadmap</title>
+  <desc id="desc">Four research stages connect experimental screening, compute promotion, final-action binding, and state-bound authorization.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#08705f"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#142f2a" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="640" fill="#ffffff"/>
+  <rect width="1600" height="14" fill="#01a982"/>
+
+  <text x="70" y="72" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#17252e">Governed AI systems research roadmap</text>
+  <text x="70" y="116" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#52646f">From controlled experiments to evidence-and-rule authorization</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="175" width="300" height="325" rx="8" fill="#ffffff" stroke="#01a982" stroke-width="4"/>
+    <rect x="430" y="175" width="300" height="325" rx="8" fill="#ffffff" stroke="#01a982" stroke-width="4"/>
+    <rect x="790" y="175" width="300" height="325" rx="8" fill="#fff8f2" stroke="#e86f32" stroke-width="4"/>
+    <rect x="1150" y="175" width="300" height="325" rx="8" fill="#e8f5f1" stroke="#08705f" stroke-width="4"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="94" y="198" width="112" height="32" rx="4" fill="#01a982"/>
+    <text x="150" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">PAPER 05</text>
+    <text x="94" y="274" font-size="27" font-weight="700" fill="#17252e">Recipe interaction</text>
+    <text x="94" y="318" font-size="19" fill="#41545f">Which training factors</text>
+    <text x="94" y="346" font-size="19" fill="#41545f">matter under bounded</text>
+    <text x="94" y="374" font-size="19" fill="#41545f">compute?</text>
+    <rect x="94" y="422" width="222" height="44" rx="5" fill="#ddf4ed"/>
+    <text x="205" y="450" text-anchor="middle" font-size="17" font-weight="700" fill="#08705f">Designed screening</text>
+
+    <rect x="454" y="198" width="112" height="32" rx="4" fill="#01a982"/>
+    <text x="510" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">PAPER 06</text>
+    <text x="454" y="274" font-size="27" font-weight="700" fill="#17252e">Compute promotion</text>
+    <text x="454" y="318" font-size="19" fill="#41545f">Which experiments</text>
+    <text x="454" y="346" font-size="19" fill="#41545f">deserve larger compute</text>
+    <text x="454" y="374" font-size="19" fill="#41545f">budgets?</text>
+    <rect x="454" y="422" width="222" height="44" rx="5" fill="#ddf4ed"/>
+    <text x="565" y="450" text-anchor="middle" font-size="17" font-weight="700" fill="#08705f">Frozen promotion gates</text>
+
+    <rect x="814" y="198" width="112" height="32" rx="4" fill="#e86f32"/>
+    <text x="870" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">PAPER 07</text>
+    <text x="814" y="274" font-size="27" font-weight="700" fill="#17252e">Final-action binding</text>
+    <text x="814" y="318" font-size="19" fill="#41545f">Did the agent return</text>
+    <text x="814" y="346" font-size="19" fill="#41545f">the exact executable</text>
+    <text x="814" y="374" font-size="19" fill="#41545f">action?</text>
+    <rect x="814" y="422" width="222" height="44" rx="5" fill="#fee9dc"/>
+    <text x="925" y="450" text-anchor="middle" font-size="17" font-weight="700" fill="#b84b18">Action contracts</text>
+
+    <rect x="1174" y="198" width="112" height="32" rx="4" fill="#08705f"/>
+    <text x="1230" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">PAPER 08</text>
+    <text x="1174" y="274" font-size="27" font-weight="700" fill="#17252e">State-bound validity</text>
+    <text x="1174" y="318" font-size="19" fill="#41545f">Is the action supported</text>
+    <text x="1174" y="346" font-size="19" fill="#41545f">by current evidence,</text>
+    <text x="1174" y="374" font-size="19" fill="#41545f">state, and rules?</text>
+    <rect x="1174" y="422" width="222" height="44" rx="5" fill="#ccece3"/>
+    <text x="1285" y="450" text-anchor="middle" font-size="17" font-weight="700" fill="#07584b">Authorization checks</text>
+  </g>
+
+  <line x1="377" y1="336" x2="417" y2="336" stroke="#08705f" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="737" y1="336" x2="777" y2="336" stroke="#08705f" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1097" y1="336" x2="1137" y2="336" stroke="#08705f" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <rect x="170" y="548" width="1260" height="66" rx="8" fill="#142f2a"/>
+  <text x="800" y="575" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#ffffff">Combined thesis</text>
+  <text x="800" y="601" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d8ebe5">Evaluate and operate AI as a governed system, not only as a model.</text>
+</svg>
