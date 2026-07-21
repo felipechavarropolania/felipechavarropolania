@@ -52,11 +52,17 @@ A case study in staged promotion and bounded cost allocation for micro-pretraini
 
 ## Research in progress
 
-### A Valid Action Is Not Enough
+## Research in progress
 
-Evaluating whether syntactically valid LLM-agent actions are justified by current evidence and decision rules.
+### A Valid Action Is Not Enough: Evaluating LLM Agents Against Evidence and Decision Rules
+
+Structured output can make an agent action parseable without making it justified.
+
+This study evaluates whether syntactically valid final actions are supported by the current evidence and consistent with the task’s declared decision rule.
 
 Internal concept:
+
+> **State-bound validity:** an action must be both executable and justified by current evidence and rules.
 
 > **State-bound validity**
 
