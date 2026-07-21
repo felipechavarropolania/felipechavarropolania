@@ -93,3 +93,10 @@ They do not contain:
 - [GitHub](https://github.com/felipechavarropolania)
 - [Website](https://www.felipechavarropolania.com/)
 - [ORCID](https://orcid.org/0009-0004-4963-3914)
+
+
+## Disclaimer
+
+The views and public materials presented here are my own and do not necessarily represent the positions of my employer.
+
+All examples use public information, synthetic data, or generalized research patterns.
