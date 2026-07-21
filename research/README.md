@@ -17,7 +17,7 @@ The research sequence examines four different control problems:
 
 ## Publication and manuscript record
 
-### Paper 05 - Published
+### Recipe Discovery - Published
 
 **Staged Factorial Screening for Budget-Constrained Micro-Pretraining**
 
@@ -30,7 +30,7 @@ The research sequence examines four different control problems:
 
 **Not claimed:** hardware-invariant rankings, globally optimal recipes, or superiority to general hyperparameter-optimization methods.
 
-### Paper 06 - Published
+### Compute Governance - Published
 
 **Small Experiments, Cheaper Decisions: A Case Study in Staged Promotion for Micro-Pretraining**
 
@@ -43,7 +43,7 @@ The research sequence examines four different control problems:
 
 **Not claimed:** that skipped candidates could never overtake promoted candidates, or that the protocol outperforms adaptive optimization.
 
-### Paper 07 - Submission manuscript
+### Action Binding - Submission Manuscript
 
 **Format-Bound Harnesses Repair Final-Action Failures in Controlled LLM Agent Evaluation**
 
@@ -53,7 +53,7 @@ The research sequence examines four different control problems:
 
 A public arXiv link will replace this status when an identifier is available.
 
-### Paper 08 - Research in progress
+### Evidence Authorization - Research in Progress
 
 **A Valid Action Is Not Enough: Evaluating LLM Agents Against Evidence and Decision Rules**
 
@@ -67,7 +67,7 @@ A public arXiv link will replace this status when an identifier is available.
 
 ## Public implementation
 
-The [`state-bound-authorization`](../examples/state-bound-authorization/README.md) example demonstrates the Paper 08 mechanism with a synthetic contract:
+The [`state-bound-authorization`](../examples/state-bound-authorization/README.md) example demonstrates the Evidence Authorization mechanism with a synthetic contract:
 
 ```text
 model proposal -> structural checks -> state/evidence/rule checks -> authorization

@@ -25,8 +25,8 @@
 
   <g font-family="Arial, Helvetica, sans-serif">
     <rect x="94" y="198" width="112" height="32" rx="4" fill="#01a982"/>
-    <text x="150" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">PAPER 05</text>
-    <text x="94" y="274" font-size="27" font-weight="700" fill="#17252e">Recipe interaction</text>
+    <text x="150" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">DISCOVERY</text>
+    <text x="94" y="274" font-size="27" font-weight="700" fill="#17252e">Recipe discovery</text>
     <text x="94" y="318" font-size="19" fill="#41545f">Which training factors</text>
     <text x="94" y="346" font-size="19" fill="#41545f">matter under bounded</text>
     <text x="94" y="374" font-size="19" fill="#41545f">compute?</text>
@@ -34,8 +34,8 @@
     <text x="205" y="450" text-anchor="middle" font-size="17" font-weight="700" fill="#08705f">Designed screening</text>
 
     <rect x="454" y="198" width="112" height="32" rx="4" fill="#01a982"/>
-    <text x="510" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">PAPER 06</text>
-    <text x="454" y="274" font-size="27" font-weight="700" fill="#17252e">Compute promotion</text>
+    <text x="510" y="220" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">GOVERNANCE</text>
+    <text x="454" y="274" font-size="25" font-weight="700" fill="#17252e">Compute governance</text>
     <text x="454" y="318" font-size="19" fill="#41545f">Which experiments</text>
     <text x="454" y="346" font-size="19" fill="#41545f">deserve larger compute</text>
     <text x="454" y="374" font-size="19" fill="#41545f">budgets?</text>
@@ -43,8 +43,8 @@
     <text x="565" y="450" text-anchor="middle" font-size="17" font-weight="700" fill="#08705f">Frozen promotion gates</text>
 
     <rect x="814" y="198" width="112" height="32" rx="4" fill="#e86f32"/>
-    <text x="870" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">PAPER 07</text>
-    <text x="814" y="274" font-size="27" font-weight="700" fill="#17252e">Final-action binding</text>
+    <text x="870" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">BINDING</text>
+    <text x="814" y="274" font-size="27" font-weight="700" fill="#17252e">Action binding</text>
     <text x="814" y="318" font-size="19" fill="#41545f">Did the agent return</text>
     <text x="814" y="346" font-size="19" fill="#41545f">the exact executable</text>
     <text x="814" y="374" font-size="19" fill="#41545f">action?</text>
@@ -52,8 +52,8 @@
     <text x="925" y="450" text-anchor="middle" font-size="17" font-weight="700" fill="#b84b18">Action contracts</text>
 
     <rect x="1174" y="198" width="112" height="32" rx="4" fill="#08705f"/>
-    <text x="1230" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">PAPER 08</text>
-    <text x="1174" y="274" font-size="27" font-weight="700" fill="#17252e">State-bound validity</text>
+    <text x="1230" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">AUTHORITY</text>
+    <text x="1174" y="274" font-size="22" font-weight="700" fill="#17252e">Evidence authorization</text>
     <text x="1174" y="318" font-size="19" fill="#41545f">Is the action supported</text>
     <text x="1174" y="346" font-size="19" fill="#41545f">by current evidence,</text>
     <text x="1174" y="374" font-size="19" fill="#41545f">state, and rules?</text>

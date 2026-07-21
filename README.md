@@ -31,12 +31,12 @@ The proposal passes structural checks and names an allowed action, but the curre
 
 ![Research roadmap from experimental screening to state-bound authorization](docs/research-roadmap.svg)
 
-| Stage | Research question | Contribution | Status |
+| Research layer | Core question | Contribution | Status |
 |---|---|---|---|
-| Paper 05 | Which training factors matter under bounded compute? | Designed screening and replicated confirmation | [Published](https://arxiv.org/abs/2606.05186) |
-| Paper 06 | Which candidates deserve larger compute budgets? | Auditable staged promotion with frozen gates | [Published](https://arxiv.org/abs/2606.11387) |
-| Paper 07 | Did the agent return an executable final action? | Final-action binding and strict format reliability | Submission manuscript |
-| Paper 08 | Is that executable action supported by evidence and rules? | State-bound validity and deterministic authorization | Research in progress |
+| Recipe Discovery | Which training factors matter under bounded compute? | Designed screening and replicated confirmation | [Published](https://arxiv.org/abs/2606.05186) |
+| Compute Governance | Which candidates deserve larger compute budgets? | Auditable staged promotion with frozen gates | [Published](https://arxiv.org/abs/2606.11387) |
+| Action Binding | Did the agent return an executable final action? | Final-action binding and strict format reliability | Submission manuscript |
+| Evidence Authorization | Is that executable action supported by evidence and rules? | State-bound validity and deterministic authorization | Research in progress |
 
 The sequence moves from experimental governance to action governance:
 
@@ -62,11 +62,11 @@ A case study of short screens, replicated promotion gates, and bounded compute a
 
 ### Format-Bound Harnesses Repair Final-Action Failures in Controlled LLM Agent Evaluation
 
-Paper 07 separates executable-action validity from reasoning quality, regret, transport reliability, and deterministic controller behavior. A public arXiv link will be added when an identifier is available.
+The Action Binding study separates executable-action validity from reasoning quality, regret, transport reliability, and deterministic controller behavior. A public arXiv link will be added when an identifier is available.
 
 ### A Valid Action Is Not Enough: Evaluating LLM Agents Against Evidence and Decision Rules
 
-Paper 08 studies **state-bound validity**: whether a syntactically executable action is supported by the current task state, available evidence, and declared decision rule. The public example in this repository demonstrates the mechanism with synthetic, closed-world data; it is not a production safety claim.
+The Evidence Authorization study examines **state-bound validity**: whether a syntactically executable action is supported by the current task state, available evidence, and declared decision rule. The public example in this repository demonstrates the mechanism with synthetic, closed-world data; it is not a production safety claim.
 
 ## What I work on
 
