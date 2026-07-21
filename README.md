@@ -2,7 +2,7 @@
 
 **I build governed AI systems: agents that can propose useful work while evidence, explicit rules, human approval, and deterministic controls retain final authority.**
 
-[LinkedIn](https://www.linkedin.com/in/felipechavarro/) | [Website](https://www.felipechavarropolania.com/) | [ORCID](https://orcid.org/0009-0004-4963-3914) | [Publications](#publications)
+[LinkedIn](https://www.linkedin.com/in/felipechavarro/) | [Website](https://www.felipechavarropolania.com/) | [ORCID](https://orcid.org/0009-0004-4963-3914) | [Publications](#publications) | [Public Toolkit](https://github.com/felipechavarropolania/governed-ai-systems)
 
 > Agents propose. Humans approve. Deterministic controllers decide. AI explains.
 
@@ -25,7 +25,7 @@ Authorization:         WITHHELD
 
 The proposal passes structural checks and names an allowed action, but the current policy state requires rejection. Parseable output is therefore not enough for execution authority.
 
-[Run the example](examples/state-bound-authorization/README.md) | [Read the research program](research/README.md)
+[Run the example](examples/state-bound-authorization/README.md) | [Use Recipe Discovery and Compute Governance](https://github.com/felipechavarropolania/governed-ai-systems) | [Read the research program](research/README.md)
 
 ## Research program
 
@@ -86,6 +86,7 @@ Everything in this repository is synthetic, public, or generalized. It contains 
 - [`examples/state-bound-authorization/`](examples/state-bound-authorization/README.md): runnable deterministic authorization example.
 - [`docs/research-roadmap.svg`](docs/research-roadmap.svg): public visual summary of the research sequence.
 - [`CITATION.cff`](CITATION.cff): citation metadata for this public research hub.
+- [Governed AI Systems](https://github.com/felipechavarropolania/governed-ai-systems): runnable Recipe Discovery and Compute Governance toolkit.
 
 ## Connect
 
